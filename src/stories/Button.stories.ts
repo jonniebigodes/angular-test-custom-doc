@@ -1,6 +1,9 @@
 
 import { Story, Meta } from '@storybook/angular/types-6-0';
 import Button from './button.component';
+
+import CustomDocumentationComponent from './CustomDocumentationComponent';
+
 export default {
   title: 'Example/Button',
   component: Button,
@@ -9,7 +12,7 @@ export default {
   },
   parameters: { 
     docs: { 
-      page: null 
+      page: CustomDocumentationComponent 
     } 
   }, 
 } as Meta;
