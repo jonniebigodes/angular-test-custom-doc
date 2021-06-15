@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
-    "storybook": "yarn docs:json && start-storybook -p 6006",
+    "storybook": "yarn docs:json && start-storybook -p 6006 --no-manager-cache",
     "build-storybook": "yarn docs:json && build-storybook"
   },
   "private": true,
